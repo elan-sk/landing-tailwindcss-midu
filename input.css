@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+  font-family: 'RobotoFlex';
+  src: url('/assets/RobotoFlex.woff2') format('woff2');
+  font-weight: 100 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bitcount';
+  src: url('/assets/Bitcount.woff2') format('woff2');
+  font-weight: 100 700;
+  font-display: swap;
+}
+
+@theme {
+  /* Colores */
+  --color-primary: #09f;
+  --color-primary-light: #ceecff;
+  --color-primary-dark: #0077cc;
+  --color-css-dark:#563d7c;
+  --color-css:#6e4fa3;
+  --color-css-light:#8b5cf6;
+
+  /* Fuentes*/
+  --font-sans: 'RobotoFlex';
+
+  /* BreakPoint */
+  --breakpoint-xs: 350px;
+}
+
+.social-button {
+  @apply size-10 sm:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+}
