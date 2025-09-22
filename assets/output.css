@@ -45,9 +45,6 @@
     --leading-tight: 1.25;
     --radius-xl: 0.75rem;
     --radius-3xl: 1.5rem;
-    --ease-in: cubic-bezier(0.4, 0, 1, 1);
-    --ease-out: cubic-bezier(0, 0, 0.2, 1);
-    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -686,13 +683,13 @@
 }
 @font-face {
   font-family: 'RobotoFlex';
-  src: url('./assets/RobotoFlex.woff2') format('woff2');
+  src: url('./RobotoFlex.woff2') format('woff2');
   font-weight: 100 700;
   font-display: swap;
 }
 @font-face {
   font-family: 'Bitcount';
-  src: url('./assets/Bitcount.woff2') format('woff2');
+  src: url('./Bitcount.woff2') format('woff2');
   font-weight: 100 700;
   font-display: swap;
 }
